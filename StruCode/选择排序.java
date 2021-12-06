@@ -22,7 +22,8 @@ public class 选择排序 {
 
     public static void main(String[] args) {
         int [] arr={9,2,1,5,3,7,8};
-        selectArray(arr);
+        //selectArray(arr);
+        插入排序.insertArrays(arr);
         display(arr);
     }
     static void display(int [] arr)
